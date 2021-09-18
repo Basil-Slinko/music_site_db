@@ -67,27 +67,3 @@ CREATE TABLE IF NOT EXISTS music_collection_and_track (
 	track_id INTEGER NOT NULL REFERENCES music_track(id),
 	music_collection INTEGER NOT NULL REFERENCES music_collection(id)
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
